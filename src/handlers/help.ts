@@ -16,4 +16,4 @@ const helpMessage = "<b>Help 👽</b>\nI'm a bot that can help you trim your vid
     "Oh wait, if the trimmed file is huge than 50 MB, I won't be able to send it you. This is a Telegram limitation. \n\n" +
 
     "<b>About 🛰</b>\n" +
-    "This bot was created by @Xooniverse team, and is open source. You can find the source code on <a href='https://github.com/xooniverse/xKalakkachiBot'>Github</a>.";
+    "This bot was created by @Xooniverse team, and is open source. You can find the source code on <a href='https://github.com/xooniverse/xvettbot'>Github</a>.";
