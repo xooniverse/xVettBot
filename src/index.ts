@@ -8,11 +8,13 @@ import setTimeHandler from './handlers/set_times';
 import startHandler from "./handlers/start";
 import acceptFile from './handlers/accept_file';
 import preCheck from './helpers/pre_check';
+import helpHandler from './handlers/help';
 
 bot.command("start", startHandler);
 bot.on([":video", ":audio", ":document", ":voice"], preCheck, acceptFile);
 bot.hears(timeRegex, setTimeHandler);
-bot.on("callback_query:data", QueryHandler.handleQuery)
+bot.on("callback_query:data", QueryHandler.handleQuery);
+bot.command("help", helpHandler);
 
 bot.start();
 console.log("Bot started");
