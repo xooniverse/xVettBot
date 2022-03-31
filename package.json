@@ -1,0 +1,23 @@
+{
+  "name": "xkalakkachi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "debug": "tsc --skipLibCheck && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/files": "^1.0.3",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "grammy": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
