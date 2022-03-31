@@ -12,12 +12,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@grammyjs/files": "^1.0.3",
     "dotenv": "^16.0.0",
+    "fluent-ffmpeg": "^2.1.2",
     "fs": "^0.0.1-security",
     "grammy": "^1.7.1"
   },
   "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.20",
     "@types/node": "^17.0.23"
   }
 }
