@@ -16,5 +16,10 @@ bot.hears(timeRegex, setTimeHandler);
 bot.on("callback_query:data", QueryHandler.handleQuery);
 bot.command("help", helpHandler);
 
+bot.catch((err) => {
+    console.error(err);
+    err.ctx.reply("Something went wrong. Please try again later.");
+});
+
 bot.start();
 console.log("Bot started");
